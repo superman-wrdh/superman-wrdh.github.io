@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>superman</title>
+  <title>superman-wrdh</title>
   
-  <subtitle>java python developer</subtitle>
+  <subtitle>做的到和做不到，其实只在一念之间。心有多大！舞台就有多大！</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
