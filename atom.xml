@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-12-24T06:22:09.874Z</updated>
+  <updated>2017-12-24T06:27:49.217Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2017/12/24/python%E6%9C%AC%E5%9C%B0%E4%BB%A3%E7%A0%81%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%E8%B0%83%E8%AF%95/"/>
     <id>http://yoursite.com/2017/12/24/python本地代码服务器端调试/</id>
     <published>2017-12-24T06:10:36.000Z</published>
-    <updated>2017-12-24T06:22:09.874Z</updated>
+    <updated>2017-12-24T06:27:49.217Z</updated>
     
     <content type="html"><![CDATA[<h2 id="python本地代码服务器端调试"><a href="#python本地代码服务器端调试" class="headerlink" title="python本地代码服务器端调试"></a>python本地代码服务器端调试</h2><p>最近python开发经常遇到了本地代码环境与服务器端环境不一样的问题，遇到问题就打日志一行行查看日志找出问题出在哪里。这种方法效率很低，有没有直接本地代码进行服务器端远程调试运行呢。答案是有的。尝试了网上很多方法，有的十分复杂，需要一大堆软件支持。最终发现PyCharm不需要下载任何插件，原生支持本地代码服务器调试，jetBrans出品的开发工具IDEA,PyCharm果然个个是精品。</p><pre><code>简单介绍下如何用PyCharm进行本地代码服务器端调试。1 依次找到settings -&gt; Build,Excution,Deployment -&gt; Deployment  填写远程服务器服务器用户名密码</code></pre><p><img src="/2017/12/24/python本地代码服务器端调试/1510896997461056422.png" alt="设置密码"></p><p>2  切到Mapping 这一栏   1 处填写你本地代码的路径   2处填写  你代码将要保存的服务器路路径  填写完成apply<br><img src="/2017/12/24/python本地代码服务器端调试/1510897164464032685.png" alt="配置"></p><p>3  找到 setting -&gt; Project Interpreter -&gt; 右边add romote<br><img src="/2017/12/24/python本地代码服务器端调试/1510897388369036169.png" alt="配置"></p><p>4 依次填写 服务器ip用户名 密码  注意打星的地方 默认用的是服务器的python2 你服务器如果装了python3 应写成/usr/bin/python3<br><img src="/2017/12/24/python本地代码服务器端调试/1510897547888039126.png" alt="配置"></p><p>5 填写完成后 python解释器就会出现两个 一个是你本地的 一个是你服务器的<br><img src="/2017/12/24/python本地代码服务器端调试/1510897706873021816.png" alt="配置"></p><p>6  将解释器调成服务器解释器 写端代码测试下 ，写完代码上传服务器<br><img src="/2017/12/24/python本地代码服务器端调试/1510897799240013335.png" alt="配置"></p><p>当你写了很多代码时候 想要查看本地代码与服务器区别 是否同步 可以如下操作<br><img src="/2017/12/24/python本地代码服务器端调试/1510897947689093862.png" alt="配置"><br><img src="/2017/12/24/python本地代码服务器端调试/1510898033981075786.png" alt="配置"></p><p>7 运行下代码<br><img src="/2017/12/24/python本地代码服务器端调试/1510898127634013713.png" alt="配置"><br> debug 模式也是支持的<br><img src="/2017/12/24/python本地代码服务器端调试/1510898180859041843.png" alt="配置"></p>]]></content>
     
@@ -34,6 +34,8 @@
     
     </summary>
     
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
     
   </entry>
   
